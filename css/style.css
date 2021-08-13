@@ -1,0 +1,100 @@
+
+.container{
+    position:relative;
+    margin-top: 100px;
+}
+.hight{
+    width: 400px; 
+    height: 750px;
+    background:green;
+    border-radius:5px;
+    
+}
+
+.hight1{
+    width: 400px; 
+    height: 750px;
+    background:rgb(236, 48, 236);
+    border-radius:5px;
+    position:absolute;
+    top: 0;
+    left: 15px;
+}
+
+.hight2{
+    width: 400px; 
+    height: 750px;
+    background:rgb(180, 212, 64);
+    border-radius:5px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    
+}
+
+.sign{
+    position: absolute;
+    bottom: 85px;
+    left: 46px;
+}
+
+.btn{
+    width: 149px;
+    height: 55px;
+    background: rgb(233 107 18 / 85%);
+    line-height: 39px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+.hight2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hight2 p{
+    padding: 20px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.hight1{
+    background-image: url(/img/form.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+    padding-top: 224px;
+    align-content: center;
+}
+.form input{
+    display:block;
+    padding: 10px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.form button{
+    border:none;
+    width: 149px;
+    height: 69px;
+    border: none;
+    width: 150px;
+    height: 52px;
+    background: rgb(233 107 18 / 85%);
+}
+
+.menu{
+    background-color: rgb(230, 209, 18);
+    position: absolute;
+    bottom: 7px;
+    left: 25px;
+    height: 60px;
+    width: 380px;
+}
